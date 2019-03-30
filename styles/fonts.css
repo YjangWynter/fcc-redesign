@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Lato', sans-serif;
+    src: 
+        url(/fonts/lato/Lato-Regular.ttf) format("tff"),
+        url(/fonts/lato/Lato-Italic.ttf) format("tff"),
+        url(/fonts/lato/Lato-Black.ttf) format("tff"),
+        url(/fonts/lato/Lato-BlackItalic.ttf) format("tff"),
+        url(/fonts/lato/Lato-Bold.ttf) format("tff"),
+        url(/fonts/lato/Lato-BoldItalic.ttf) format("tff");
+}
+@font-face {
+    font-family: 'Hack', monospace;
+    src: 
+        url(/fonts/hack/Hack-Regular.ttf) format("tff"),
+        url(/fonts/hack/Hack-Italic.ttf) format("tff"),
+        url(/fonts/hack/Hack-BoldItalic.ttf) format("tff"),
+        url(/fonts/hack/Hack-Bold.ttf)format("tff");
+}
+

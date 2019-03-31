@@ -1,3 +1,35 @@
-main{
-  background-color:#2A2A2A;
+/* Check design doc for colors and rules : https://design-style-guide.freecodecamp.org/#logo-colors */
+:root{
+  /* Must use these paired exactly when text or elements are used for reading and contrast */
+  /* Essentially we are going for dark mode by default*/
+  
+  /* Layout Colors */
+  /* Pair 1 */
+  --gray90: #0a0a2e;
+  --gray00:#ffffff;
+  /* Pair 2 */
+  --gray05:#f5f6f7;
+  --gray85:#1e2040;
+   /* Pair 3 */
+   --gray10:#e8e8eb;
+   --gray80:#e8e8eb;
+    /* Pair 4 */
+    --gray15:#d4d4da;
+    --gray75:#323251;
+
+ /* Accent Colors */
+
+ /* Primary Colors */
+ /* for dark backgrounds only */
+ --lightpurple:#dbb8ff;
+ --yellow:#f1be32;
+ --lightblue:#99c9ff;
+ --lightgreen:#acd157;
+
+ /* Secondary Colors*/
+ /* for light backgrounds only */
+--darkpurple:#5a01a7;
+--brown:#4d3800;
+--darkblue:#002ead;
+--darkgreen:#00471b;
 }

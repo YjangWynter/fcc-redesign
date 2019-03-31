@@ -1,0 +1,35 @@
+ .parallax{
+/*Parallax effect.*/
+ width: 100%;
+ height:95vh;
+ 
+ /* Image URL */
+ background-image:url("/images/pics/fcc-camp.png");
+
+ /* Centering and preventing image repetition of background image */
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+
+ .parallax-content{    
+margin-top:20vh;
+
+ }
+a.learn-button{
+    background-image: url(/images/darkgreen.svg);
+    color:var(--gray85);
+    margin: 50px;
+    border: 10px;
+}
+
+/*Color for main main */
+body.content{
+    background-color: var(--gray85);
+    color:var(--gray05);
+}
+

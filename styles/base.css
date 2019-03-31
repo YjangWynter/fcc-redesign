@@ -33,3 +33,14 @@
 --darkblue:#002ead;
 --darkgreen:#00471b;
 }
+h1,h2,h3,h4,h6{
+  font-family: Hack;
+}
+p{
+  font-family: Lato, sans-serif;
+}
+
+footer{
+  min-height:15vh;
+  background-color: var(--darkgreen);
+}

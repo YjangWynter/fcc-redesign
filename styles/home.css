@@ -38,15 +38,45 @@ body.content{
     background-color: var(--gray85);
     color:var(--gray05);
 }
+/*nav links & text */
+.nav-link{
+    font-family: Hack;
+     color:var(--gray00);
+      margin-right:5px;
+}
+.nav-link:hover{
+    color: var(--lightgreen);
+}
+
+/*icons spacing */
+i{
+    margin-right:5px;
+}
 
 /*Team pic */
-#team-pic{
+.img-link {
     width:80%;
     height: auto;
     float:right;
+    box-shadow: 6px 5px var(--gray90);
+}
+ .img-link:hover {
+    box-shadow: 3px 2px var(--gray90);
 }
 #stuck {
     width: 80%;
     height: 90%;
     float: left;
+}
+.news-content {
+    margin-top: 10vh;
+    min-height: 60vh;
+
+}
+.news-pic{
+    float:right;
+     box-shadow: 6px 5px var(--gray90);
+}
+.news-pic:hover{
+     box-shadow: 3px 2px var(--gray90);
 }

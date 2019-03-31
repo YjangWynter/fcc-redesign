@@ -29,7 +29,8 @@
                 <!--CDN Dependencies-->
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+                integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
             </head>
 <body class="content">
 
@@ -40,16 +41,26 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="navbar-collapse collapse collapsed" id="navbar-collapse" style="">
+    <div class="navbar-collapse collapse collapsed" id="navbar-collapse">
         <ul class="navbar-nav mr-auto">
            
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Link</a>
+                <a class="nav-link" href="javascript:void(0)">
+                    <i class="fas fa-graduation-cap"></i>Curriculum</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="javascript:void(0)">Disabled</a>
+                <a class="nav-link" href="javascript:void(0)">
+                <i class="fas fa-rss-square"></i>Feed</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">
+                    <i class="far fa-comments"></i>Forums</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">
+                    <i class="far fa-user-circle"></i>Sign in</a>
             </li>
         </ul>
     </div>
@@ -57,10 +68,11 @@
 
 <div class="parallax  jumbotron  text-center">
     <div class="parallax-content">
-    <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#"><i class="fa fa-edit fa-lg"></i>Start coding (it's free)</a>
+    <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#">
+    <i class="fas fa-code"></i>Start coding (it's free)</a>
     </div>
 </div>
-<div class=""></div>
+
 
 <main class="container  ">
     <section>
@@ -69,41 +81,58 @@
             <h3>Column 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
+            <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#">
+                <i class="fas fa-user"></i>Learn more about us</a>
+            </div>
         <div class="col-sm-8">
-           <a href="#"> <img id="team-pic"src="/images/pics/team-diverse.jpeg" alt="fcc-team"></a>
+           <a href="#"> <img  class="img-link"src="/images/pics/team-diverse.jpeg" alt="fcc-team"></a>
         </div>
        
     </div>
     <br/>
         <div class="row">
-        <div class="col-sm-8">
-            <a href="#"> <img id="stuck" src="/images/pics/photo-1456406644174-8ddd4cd52a06.jpeg" alt="fcc-team"></a>
-        </div>
+            <div class="col-sm-8">
+                <a href="#"> <img class="img-link"id="stuck" src="/images/pics/photo-1456406644174-8ddd4cd52a06.jpeg" alt="fcc-team"></a>
+            </div>
             <div class="col-sm-4">
                 <h3>Column 2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-        
-        </div>
-    
-
+                <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#">
+                    <i class="fas fa-comments"></i>Click here to chat</a>
+                </div>
+         </div>
     </section>
+
 </main>
 
-        <main>
-        </main>
+        <section class="news-article container">
+        <div class=" text-center">
+                 <div class="news-content">
+                    <h1>The News</h1> <br/>
+                    <a class="" href="#"> <img class="news-pic" src="/images/pics/article-home.png" alt=""></a>
+                    <div class="col-sm-4">
+                    <h3>Column 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#">
+                  <i class="fas fa-newspaper"></i>Click here to read</a>
+                </div>
+                
+           
+            </div>
+        </div>
+        </section>
         <footer>
 
         </footer>
     <!--Scripts-->
 <!--My scripts-->
-<script src="scripts/main.js"></script>
+<script src="/scripts/main.js"></script>
     <!--Assets-->
         <!--Bootstrap-->
            <!--Local Dependencies-->
-            <script src='assets/bootstrap/js/bootstrap.min.js'></script>
+            <script src='/assets/bootstrap/js/bootstrap.min.js'></script>
              <!--CDN Dependencies-->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

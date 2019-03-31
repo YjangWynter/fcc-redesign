@@ -22,7 +22,13 @@ margin-top:20vh;
  }
 a.learn-button{
     background-image: url(/images/darkgreen.svg);
-    color:var(--gray85);
+    color:var(--gray05);
+    margin: 50px;
+    border: 10px;
+}
+a.learn-button:hover {
+    background-image: url(/images/lightgreen.svg);
+    color: var(--gray00);
     margin: 50px;
     border: 10px;
 }
@@ -33,3 +39,14 @@ body.content{
     color:var(--gray05);
 }
 
+/*Team pic */
+#team-pic{
+    width:80%;
+    height: auto;
+    float:right;
+}
+#stuck {
+    width: 80%;
+    height: 90%;
+    float: left;
+}

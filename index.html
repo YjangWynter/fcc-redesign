@@ -34,8 +34,8 @@
             </head>
 <body class="content">
 
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand " href="javascript:void(0)"><img src="images/logos/freeCodeCamp.svg" alt='freeCodeCamp logo'/></a>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand " href="/index.html"><img src="/images/logos/freeCodeCamp.svg" alt='freeCodeCamp logo'/></a>
     <button class="navbar-toggler navbar-toggler-right ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
         aria-expanded="true">
         <span class="navbar-toggler-icon"></span>
@@ -68,24 +68,23 @@
 
 <div class="parallax  jumbotron  text-center">
     <div class="parallax-content">
-    <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#">
+    <a class="btn btn-lg col-xs-12 btn-dark learn-button" role="button" href="/learn.html">
     <i class="fas fa-code"></i>Start coding (it's free)</a>
     </div>
 </div>
-
 
 <main class="container  ">
     <section>
     <div class="row">
         <div class="col-sm-4">
-            <h3>Column 1</h3>
+            <h3>Join a supportive community of millions of coders.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#">
-                <i class="fas fa-user"></i>Learn more about us</a>
+            <a class="btn btn-lg col-xs-12 btn-dark main-button" role="button" href="#">
+                <i class="fas fa-users"></i>Learn more about us</a>
             </div>
         <div class="col-sm-8">
-           <a href="#"> <img  class="img-link"src="/images/pics/team-diverse.jpeg" alt="fcc-team"></a>
+           <a href="#"> <img id="team-pic" class="img-link"src="/images/pics/team-diverse.jpeg" alt="fcc-team"></a>
         </div>
        
     </div>
@@ -95,10 +94,10 @@
                 <a href="#"> <img class="img-link"id="stuck" src="/images/pics/photo-1456406644174-8ddd4cd52a06.jpeg" alt="fcc-team"></a>
             </div>
             <div class="col-sm-4">
-                <h3>Column 2</h3>
+                <h3>Stuck on a Bug?</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-                <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#">
+                <a class="btn btn-lg col-xs-12 btn-dark main-button" role="button" href="#">
                     <i class="fas fa-comments"></i>Click here to chat</a>
                 </div>
          </div>
@@ -109,13 +108,14 @@
         <section class="news-article container">
         <div class=" text-center">
                  <div class="news-content">
-                    <h1>The News</h1> <br/>
+                    <h1>News</h1> <br/>
                     <a class="" href="#"> <img class="news-pic" src="/images/pics/article-home.png" alt=""></a>
                     <div class="col-sm-4">
-                    <h3>Column 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-                <a class="btn btn-lg col-xs-12 btn-success learn-button" role="button" href="#">
+                    <h3>Nikita Rudenko</h3>
+                    <p>I started my coding journey in spring 2018, a bit less than one year ago.
+                     I earned some programming skills since that
+                    time but still, I understand there are many more things to learn ahead.</p>
+                    <a class="btn btn-lg col-xs-12 main-button btn-success " role="button" href="#">
                   <i class="fas fa-newspaper"></i>Click here to read</a>
                 </div>
                 
@@ -123,8 +123,10 @@
             </div>
         </div>
         </section>
-        <footer>
-
+        <footer class="text-center">
+            <a class="btn btn-lg col-xs-12 footer-button btn-dark " role="button" href="#">
+                <i class="fas fa-donate"></i>Click here to donate</a>
+            </div>
         </footer>
     <!--Scripts-->
 <!--My scripts-->

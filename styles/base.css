@@ -12,7 +12,7 @@
   --gray85:#1e2040;
    /* Pair 3 */
    --gray10:#e8e8eb;
-   --gray80:#e8e8eb;
+   --gray80:#292948;
     /* Pair 4 */
     --gray15:#d4d4da;
     --gray75:#323251;
@@ -42,5 +42,18 @@ p{
 
 footer{
   min-height:15vh;
-  background-color: var(--darkgreen);
+  background-color: var(--gray90);
+}
+.footer-button {
+  background-image: url(/images/colors/yellow.svg);
+  color: var(--gray85);
+  margin: 50px;
+  border: 10px;
+}
+
+.footer-button:hover {
+  background-image: url(/images/colors/gray85.svg);
+  color: var(--gray90);
+  margin: 50px;
+  border: 10px;
 }

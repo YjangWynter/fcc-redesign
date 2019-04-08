@@ -146,7 +146,7 @@ i{
 .tax-id{
      font-size: 30px;
 }
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:600px) {
     .parallax {
         /*Parallax effect.*/
         background-position: center right;
@@ -160,16 +160,8 @@ i{
 .tax-id{
      font-size: 30px;
 }
-@media only screen and (max-width:800px){
-     .parallax {
-         /*Parallax effect.*/
-          background-position:center right;
-         /* Image URL */
-         background-image: url("/images/pics/fcc-mobile.png");
-
-         /* Centering and preventing image repetition of background image */
-        
-     }
+@media only screen and (max-width:900px){
+ 
      .parallax-content {
         
         margin: 1vh 5vw;

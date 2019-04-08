@@ -157,6 +157,9 @@ i{
 
     }
 }
+.tax-id{
+     font-size: 30px;
+}
 @media only screen and (max-width:800px){
      .parallax {
          /*Parallax effect.*/
@@ -192,6 +195,10 @@ i{
         text-align: center;
     }
     #jumbo {
+        width: 100%;
+    }
+    .testimonial-image {
+
         width: 100%;
     }
     .testimonial-image {

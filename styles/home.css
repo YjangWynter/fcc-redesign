@@ -146,7 +146,7 @@ i{
 .tax-id{
      font-size: 30px;
 }
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:700px) {
     .parallax {
         /*Parallax effect.*/
         background-position: center right;

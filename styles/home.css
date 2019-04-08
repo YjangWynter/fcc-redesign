@@ -4,7 +4,7 @@
  height:100vh;
  
  /* Image URL */
- background-image:url("/images/pics/fcc-camp.png");
+ background-image:url("/images/pics/fcc-wide.png");
 
  /* Centering and preventing image repetition of background image */
  background-size: cover;
@@ -12,24 +12,30 @@
  background-repeat: no-repeat;
  background-attachment: fixed;
  display: flex;
- align-items: center;
+  align-items: center;
  justify-content: center;
  }
 
  .parallax-content{    
-margin-top:20vh;
+margin-top:35vh;
+display: inline-block;
 
  }
+ .parallax-content p {
+     margin:2vw 2vh;
+     font-size: 130%;
+     text-align: start;
+     }
 a.learn-button{
     background-image: url(/images/colors/yellow.svg);
     color:var(--gray05);
-    margin: 50px;
+    margin: 65px;
     border: 10px;
 }
 a.learn-button:hover {
     background-image: url(/images/colors/brown.svg);
     color: var(--gray00);
-    margin: 50px;
+    margin: 65px;
     border: 10px;
 }
 .main-button {
@@ -48,12 +54,28 @@ a.learn-button:hover {
 /* Spacing for main section*/
 main{
     margin-top:5%;
+
 }
 
 /*Color for main main */
 body.content{
     background-color: var(--gray85);
     color:var(--gray05);
+}
+/* White color section*/
+.white-bg{
+    background: var(--gray05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+
+}
+.white-bg img{
+    width:100%;
+   justify-content: center;
+   align-content: center;
 }
 /*nav links & text */
 .nav-link{
@@ -69,42 +91,100 @@ body.content{
 i{
     margin-right:5px;
 }
+.team{
+     width:80%;
+     height: auto;
+     box-shadow: 6px 5px var(--gray90);
+     margin-bottom:5%;
+     justify-self:center;
+}
+/*Featured Section*/
+.featured{
+     margin:5vh 0vw;
+}
+/* Testimonals */
+.testimonial-image{
 
-/*Team pic */
+    width:80%;
+    height: auto;
+    box-shadow: 6px 5px var(--gray90);
+    margin:10vh 0vw 5vh;
+    justify-self:center;
+}
+
+/*Secondary pic styles */
 .img-link {
     width:80%;
     height: auto;
     box-shadow: 6px 5px var(--gray90);
+    margin-bottom:5%;
+    justify-self:center;
 }
  .img-link:hover {
     box-shadow: 3px 2px var(--gray90);
 }
-#team-pic{
-    float:right;
+#jumbo{
+    width:100%;
 }
-#stuck {
-    
-    height: 90%;
-    float: left;
+.skills-section{
+    margin:15vh 0vw;
 }
-/* News Content */
-.news-content {
-    margin-top: 10vh;
-    min-height: 60vh;
-
+.donation-mission{
+    margin:15vh 0vw;
+    font-size: 22px;
 }
-.news-content p{
-    text-align: justify;
+.spacer {
+    background-color:var(--gray00);
+    height:1px;
 }
-.news-pic{
-    float:right;
-     box-shadow: 6px 5px var(--gray90);
+#tax-donation-link {
+     color: var(--gray00);
 }
-.news-pic:hover{
-     box-shadow: 3px 2px var(--gray90);
+#tax-donation-link:hover {
+    color: var(--gray15);
+}
+.tax-id{
+     font-size: 30px;
 }
 @media only screen and (max-width:800px){
-    .news-pic{
-        width:100%;
+     .parallax {
+         /*Parallax effect.*/
+          background-position:center right;
+         /* Image URL */
+         background-image: url("/images/pics/fcc-mobile.png");
+
+         /* Centering and preventing image repetition of background image */
+        
+     }
+     .parallax-content {
+        
+        margin: 1vh 5vw;
+     }
+     a.learn-button {
+        text-align: center;
+         margin: 2vw 2vh;
+         border: 10px;
+     }
+     
+    a.learn-button:hover {
+        margin: 1vw 1vh;
+        }
+        .white-bg img {
+        width:75vw;
+        height:10vh;
+        }
+    .img-link {
+        width: 100%;
+        height: auto;
+    }
+    .main-button{
+        text-align: center;
+    }
+    #jumbo {
+        width: 100%;
+    }
+    .testimonial-image {
+
+        width: 100%;
     }
 }

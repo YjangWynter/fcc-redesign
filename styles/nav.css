@@ -1,6 +1,8 @@
 .navbar {
     background-color: var(--gray90);
+   padding-bottom:100px;
 }
+
 /*freeCodeCamp logo */
 .navbar-brand img {
     width: 200px;

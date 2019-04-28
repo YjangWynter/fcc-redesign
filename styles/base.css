@@ -42,6 +42,7 @@ p{
 
 footer{
   min-height:15vh;
+  margin-top:10vh;
   background-color: var(--gray90);
 }
 .footer-button {

@@ -133,6 +133,9 @@ i{
     margin:15vh 0vw;
     font-size: 22px;
 }
+ a.learn-button {
+     width: 150%;
+ }
 .spacer {
     background-color:var(--gray00);
     height:1px;
@@ -146,35 +149,65 @@ i{
 .tax-id{
      font-size: 30px;
 }
+
+/* learn page */
+.learn-item {
+    max-height: 200px;
+    width: 400px;
+    image-orientation: from-image;
+}
+.learn-item:focus, .learn-item:hover{
+
+}
+
+#last-img {
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+.text{
+    color: var(--gray00);
+}
+.overlay:hover, .overlay:focus{
+    position: relative;
+    
+    bottom:0;
+     bottom: 0;
+     color: #fff;
+     left: 0;
+     opacity: 0.8;
+    background-color:var(--grey05);
+}
+
+
+
+
+
 @media only screen and (max-width:600px) {
-    .parallax {
-        /*Parallax effect.*/
-        background-position: center right;
-        /* Image URL */
-        background-image: url("/images/pics/fcc-mobile.png");
-
-        /* Centering and preventing image repetition of background image */
-
-    }
+   
+       .intro,
+       .intro:focus,
+       .intro:hover {
+           margin-top: 400px;
+       }
+     .tax-id {
+         font-size: 30px;
+     }
 }
-.tax-id{
-     font-size: 30px;
-}
+
 @media only screen and (max-width:900px){
  
      .parallax-content {
         
         margin: 1vh 5vw;
      }
-     a.learn-button {
+     .learn-button {
         text-align: center;
-         margin: 2vw 2vh;
+        
+         width: 25%;
+         height: 10%;
          border: 10px;
      }
      
-    a.learn-button:hover {
-        margin: 1vw 1vh;
-        }
         .white-bg img {
         width:75vw;
         height:10vh;
@@ -197,7 +230,19 @@ i{
 
         width: 100%;
     }
-.col-sm-3{
-    margin: 5% 10%;
-}
+   .intro, .intro:hover, .intro:focus{
+       margin-top:60%;
+      
+   }
+    .parallax {
+       
+        /* Image URL */
+        background-image: url("/images/pics/fcc-long.jpg");
+
+        /* Centering and preventing image repetition of background image */
+             background-position: center bottom;
+    }
+    .intro, .intro:focus, .intro:hover {
+        margin-top: 400px;
+    }
 }
